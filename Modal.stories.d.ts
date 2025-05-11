@@ -1,0 +1,11 @@
+import { default as Modal } from './Modal';
+import { Meta, StoryObj } from '@storybook/react';
+export type ModalSize = 'sm' | 'md' | 'lg';
+declare const meta: Meta<typeof Modal>;
+export default meta;
+type Story = StoryObj<typeof Modal>;
+export declare const Center: Story;
+export declare const Bottom: Story;
+export declare const Small: Story;
+export declare const Medium: Story;
+export declare const Large: Story;
